@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gif Finder</title>
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Search</h1>
+      <form>
+        <div class="row">
+          <div class="six columns">
+            <label for="search">Find a Gif</label>
+            <input
+              class="u-full-width"
+              type="text"
+              placeholder="Search"
+              id="search"
+            />
+            <input type="button" value="Submit" id="button1" />
+          </div>
+        </div>
+      </form>
+      <div id="output"></div>
+    </div>
+    <script src="giphy.js"></script>
+  </body>
+</html>
